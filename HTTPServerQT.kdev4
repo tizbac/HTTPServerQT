@@ -1,0 +1,4 @@
+[Project]
+Name=HTTPServerQT
+Manager=KDevCMakeManager
+VersionControl=kdevgit
