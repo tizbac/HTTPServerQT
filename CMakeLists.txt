@@ -1,6 +1,6 @@
 
 project(httpserverqt)
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 cmake_policy(SET CMP0020 NEW)
 set(CMAKE_AUTOMOC ON)
 #find_package(Qt REQUIRED COMPONENTS Core Network )
