@@ -141,7 +141,7 @@ void HTTPClient::sendResponseStreaming(QString code, QString desc, QString mimet
 void HTTPClient::writeLine(QString line, bool flush)
 {
   QByteArray arr;
-  arr.append(line);
+  arr.append(line.toUtf8());
   arr.append('\n');
   m_socket->write(arr);
   if ( flush )
